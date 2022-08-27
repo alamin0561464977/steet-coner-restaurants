@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Steet Coner Restaurants</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" href="https://findicons.com/files/icons/630/japanese_stuff/256/food.png" type="image/png">
+    <style>
+        .title {
+            color: crimson;
+            text-align: center;
+            font-size: 35px;
+            font-weight: 700;
+            font-family: cursive;
+            margin: 30px auto;
+        }
+
+        .input {
+            width: 380px;
+            margin: auto;
+        }
+
+        .foodCard {
+            border: 2px solid orangered;
+            padding: 20px;
+            border-radius: 20px;
+        }
+
+        .foodCard img {
+            border-radius: 10px 10px 0 0;
+        }
+
+        .foodCard h2 {
+            font-size: 17px;
+            font-weight: 700;
+        }
+
+        .foodCard button {
+            background-color: crimson;
+            padding: 10px 60px;
+            margin: 5px auto;
+            border-radius: 8px;
+            color: white;
+            font-size: 22px;
+            font-weight: 700;
+        }
+    </style>
+</head>
+</head>
+
+<body>
+    <h1 class="title">Steet Coner Restaurants</h1>
+    <div class="input input-group mb-3">
+        <input id="search-food-input" type="text" class="form-control" placeholder="Search food"
+            aria-label="Recipient's username" aria-describedby="button-addon2">
+        <button class="btn btn-outline-secondary" type="button" id="search-btn">Search Food</button>
+    </div>
+    <main class="container mx-auto">
+        <section id="foodSection" class="grid grid-cols-1 ms:grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4">
+
+        </section>
+        <section id="foodSection2" class="grid grid-cols-1 ms:grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4">
+
+        </section>
+    </main>
+
+    <script src="utilities.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
